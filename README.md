@@ -4,6 +4,7 @@
 
 SlideJantem is a captivating puzzle game with a pixel-art aesthetic, designed as a year-end project. It invites players to solve puzzles in a maze format, offering a mix of strategy and creativity.
 
+![Additional Screenshot](im0.png) 
 ![SlideJantem Main Menu](im1.png)
 ![Gameplay Screenshot](im2.png)
 ![Puzzle Example](im3.png)
@@ -11,7 +12,7 @@ SlideJantem is a captivating puzzle game with a pixel-art aesthetic, designed as
 ![Customization Screen](im5.png)
 ![Leaderboard View](im6.png)
 ![Manual Map Creator](im7.png)
-![Additional Screenshot](im8.png)
+
 
 ## Installation
 
