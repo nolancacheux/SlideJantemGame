@@ -1,0 +1,168 @@
+@import 'https://fonts.googleapis.com/css?family=Rubik+One';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap%27');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700%22");
+
+
+/*fond index*/
+.backindex{
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  width:99%;
+  height: 100%;
+  background-image: url('image/1.gif');
+}
+
+img {
+  width : 450px;
+  height : 300px;
+}
+
+.logo{
+  position : absolute;
+  margin-left: 425px;
+  width : 20px;
+
+}
+
+body{
+  cursor: url('image/B2.ico'), pointer;
+}
+
+/* entrer le login */
+
+
+.login{
+	position: relative;
+  color: black;
+  padding-top: 100px;
+
+}
+
+.login input[type=text]{
+	width: 300px;
+	height: 30px;
+	background: rgba(255,255,255,0.7);
+	border: 5px solid rgba(255,255,255,0.9);
+	border-radius: 0px;
+	color: black;
+	font-family:'Rubik One', sans-serif;
+  text-shadow: black;
+  text-align: center;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 4px;
+  margin-top: 200px;
+  cursor: url('image/B2.ico'), pointer;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 5px solid rgba(255,255,255,0.9);
+  color: black;
+}
+
+
+/* Bouton poussoir */
+.button{
+  font-family: 'Montserrat', sans-serif
+  
+}
+
+
+.push_buttonP{
+  cursor: url('image/B2.ico'), pointer;
+  position:relative;
+  width:150px;
+  color:#FFF;
+  display:inline-block;
+  text-decoration:none;
+  margin:0 auto;
+  border-radius:0px;
+  font-family:'Rubik One', sans-serif;
+  border:solid 1px #ffdc5c;
+  background:#ffdc5c;
+  text-align:center;
+  padding:15px 15px;
+  font-size: 30px;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 0px 9px 0px #c18243;
+  -moz-box-shadow: 0px 9px 0px #c18243;
+  box-shadow: 9px 9px 0px #c18243;
+  margin: 15px;
+}
+
+.push_buttonP:hover{
+  
+-webkit-box-shadow: 0px 2px 0px #c18243;
+-moz-box-shadow: 0px 2px 0px #c18243;
+box-shadow: 2px 2px 0px #c18243;
+position:relative;
+top:7px;
+}
+
+.push_buttonS{
+  cursor: url('image/B2.ico'), pointer;
+  position:relative;
+  width:100px;
+  color:#FFF;
+  display:inline-block;
+  text-decoration:none;
+  margin:0 auto;
+  border-radius:0px;
+  font-family:'Rubik One', sans-serif;
+  border:solid 1px #b070ff;
+  background:#b070ff;
+  text-align:center;
+  font-size: 20px;
+  padding:20px 30px;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 0px 9px 0px #705675;
+  -moz-box-shadow: 0px 9px 0px #705675;
+  box-shadow: 9px 9px 0px #705675;
+  margin: 15px;
+}
+
+.push_buttonS:hover{
+  -webkit-box-shadow: 0px 2px 0px #705675;
+  -moz-box-shadow: 0px 2px 0px #705675;
+  box-shadow: 2px 2px 0px #705675;
+  position:relative;
+  top:7px;
+}
+
+.push_buttonR{
+  cursor: url('image/B2.ico'), pointer;
+  position:relative;
+  width:100px;
+  color:#FFF;
+  display:inline-block;
+  text-decoration:none;
+  margin:0 auto;
+  border-radius:0px;
+  font-family:'Rubik One', sans-serif;
+  border:solid 1px #b070ff;
+  background:#b070ff;
+  text-align:center;
+  padding:20px 30px;
+  font-size: 20px;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 0px 9px 0px #705675;
+  -moz-box-shadow: 0px 9px 0px #705675;
+  box-shadow: 9px 9px 0px #705675;
+  margin: 15px;
+}
+
+.push_buttonR:hover{
+-webkit-box-shadow: 0px 2px 0px #705675;
+-moz-box-shadow: 0px 2px 0px #705675;
+box-shadow: 2px 2px 0px #705675;
+position:relative;
+top:7px;
+}

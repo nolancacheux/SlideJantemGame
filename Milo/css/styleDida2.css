@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+One');
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
+body {
+
+
+    /* letter-spacing: 2px; */
+	background: url('../image/backDida2.jpg') no-repeat center center fixed;
+	background-size: cover;
+    background-color: rgba(53, 51, 51, 0.815);
+    height : 100%;
+}
+
+
+img {
+    width : 1500%;
+    height : 1600%;
+}
+
+.jantem{
+    display: block;
+    position : absolute;
+    left: 3%;
+    top : 34.3%;
+    width : 2%;
+    z-index : 3;
+}
+
+
+#typedtext {
+    background-color: rgb(245, 229, 139);
+    left : 30%;
+    top : 2%;
+    bottom: 7%;
+    padding : 2%;
+    border: 2vh solid rgb(133, 119, 42);
+    width: 57%;
+    height: 55%;
+    position: fixed;
+    color : rgb(133, 119, 42);
+    font-size: 2vh;
+    font-family : 'Press Start 2P';
+    line-height: 4vh;
+
+}
+
+
+.eightbit-btn {
+    margin-left: 75vw;
+    margin-top: 43vh;
+	 background: #92cd41;
+	 display: inline-block;
+	 position: relative;
+	 text-align: center;
+	 font-size: 3vh;
+	 padding: 1%;
+	 font-family: 'Press Start 2P', cursive;
+	 text-decoration: none;
+	 color: white;
+	 box-shadow: inset -4px -4px 0px 0px #4aa52e;
+}
+ 
+ .eightbit-btn:before, .eightbit-btn:after {
+	 content: '';
+	 position: absolute;
+	 width: 100%;
+	 height: 100%;
+	 box-sizing: content-box;
+}
+ .eightbit-btn:before {
+	 top: -1.5vh;
+	 left: 0;
+	 border-top: 1.5vh black solid;
+	 border-bottom: 1.5vh black solid;
+}
+ .eightbit-btn:after {
+	 left: -1.5vh;
+	 top: 0;
+	 border-left: 1.5vh black solid;
+	 border-right: 1.5vh black solid;
+}
+ .eightbit-btn--reset {
+	 background: #e76e55;
+	 box-shadow: inset 1vh -1vh 0px 0px #8c2022;
+}
+ .eightbit-btn--reset:hover, .eightbit-btn--reset:focus {
+	 background: #ce372b;
+	 box-shadow: inset -6px -6px 0px 0px #8c2022;
+}
+ .eightbit-btn--reset:active {
+	 box-shadow: inset 4px 4px 0px 0px #8c2022;
+}
+
+
+ *, *:before, *:after {
+	 box-sizing: border-box;
+}
+ 
+ h1 {
+	 font-size: 2.8rem;
+	 line-height: 3.4rem;
+}
+ h2 {
+	 font-size: 2rem;
+}
+ h1, h2 {
+	 font-family: 'Press Start 2P', cursive;
+}
+ p {
+	 font-size: 1.25rem;
+	 line-height: 1.75rem;
+}
+ hr {
+	 margin: 40px auto;
+	 max-width: 100px;
+	 display: block;
+	 height: 1px;
+	 border: 0;
+	 border-top: 1px solid #ccc;
+	 padding: 0;
+}
+ .pen-intro {
+	 text-align: center;
+}
+ 
+#continue img{
+    position: fixed;
+	margin-left: 45vw;
+    margin-top: 30vh;
+    z-index: 100;
+    height: 20%;
+    width: auto;
+}

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+One');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap%27');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700%22");
+
+
+/*fond index*/
+.backindex{
+  background: url('../image/1.gif') no-repeat center center fixed;
+background-size: cover;
+text-align: center;
+
+}
+
+img {
+  width : 160%;
+  height : 170%;
+}
+
+.logo{
+  display: block;
+  position : absolute;
+  margin-left: 35%;
+  width : 20%;
+  margin-top: -5%;
+}
+
+body{
+  cursor: url('../image/B2.ico'), pointer;
+  overflow-x: hidden;
+}
+
+  /*boutton supprimer compte et donnees*/
+
+  .button{
+    font-family: 'Montserrat', sans-serif
+  }
+  
+  
+  .supprimer{
+    cursor: url('../image/B2.ico'), pointer;
+    position:relative;
+    width:60%;
+    color:#FFF;
+    display:inline-block;
+    text-decoration:none;
+    margin:0 auto;
+    border-radius:0vh;
+    font-family:'Rubik One', sans-serif;
+    border:solid 0.17vh #b48c5d;
+    background:#b48c5d;
+    text-align:center;
+    padding:1.36vh 0vh;
+    font-size: 2.72vh;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
+    -webkit-box-shadow: 0vh 1.53vh 0vh #8a6840;
+    -moz-box-shadow: 0vh 1.53vh 0vh #8a6840;
+    box-shadow: 1.53vh 1.53vh 0vh #8a6840;
+    margin: 1.7vh;
+  }
+  
+  .supprimer:hover{  
+  -webkit-box-shadow: 0vh 0.34vh 0vh #8a6840;
+  -moz-box-shadow: 0vh 0.34vh 0vh #8a6840;
+  box-shadow: 0.34vh 0.34vh 0vh #8a6840;
+  position:relative;
+  top:1.19vh;
+  }
+  
+
+
+/* entrer le login */
+
+
+.login{
+	position: relative;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 19%;
+	width: 85%;
+	height: 0%;
+
+}
+
+.login input[type=text]{
+	background: rgba(255,255,255,0.7);
+	border: 0.85vh solid rgba(255,255,255,0.9);
+	border-radius: 0px;
+	color: black;
+	font-family:'Rubik One', sans-serif;
+  text-shadow: black;
+  text-align: center;
+	font-size: 3vh;
+	font-weight: 100%;
+	padding:1%;
+  cursor: url('../image/B2.ico'), pointer;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 0.85vh solid rgba(255,255,255,0.9);
+  color: black;
+}
+
+.logged{
+  position: relative;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 19%;
+	width: 20%;
+	height: 0%;
+	background: rgba(255,255,255,0.7);
+	border: 0.85vh solid rgba(255,255,255,0.9);
+	border-radius: 0px;
+	color: black;
+	font-family:'Rubik One', sans-serif;
+  text-shadow: black;
+  text-align: center;
+	font-size: 3vh;
+	font-weight: 100%;
+	padding:1%;
+  cursor: url('../image/B2.ico'), pointer;
+}
+
+
+
+/* Bouton poussoir */
+.button{
+  font-family: 'Montserrat', sans-serif
+  
+}
+
+
+.push_buttonP{
+  cursor: url('../image/B2.ico'), pointer;
+  position:relative;
+  width:12%;
+  color:#FFF;
+  display:inline-block;
+  text-decoration:none;
+  margin:0 auto;
+  font-family:'Rubik One', sans-serif;
+  border:solid 0.17vh #ffdc5c;
+  background:#ffdc5c;
+  text-align:center;
+  padding:3vh 4vh;
+  font-size: 5.1vh;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 0vh 1.53vh 0vh #c18243;
+  -moz-box-shadow: 0vh 1.53vh 0vh #c18243;
+  box-shadow: 1.53vh 1.53vh 0vh #c18243;
+  margin: 2.55vh;
+  margin-left: 42%;
+  margin-right: 44%;
+}
+
+.push_buttonP:hover{
+  
+-webkit-box-shadow: 0vh 0.34vh 0vh #c18243;
+-moz-box-shadow:0vh 0.34vh 0vh #c18243;
+box-shadow:0.34vh 0.34vh 0vh #c18243;
+position:relative;
+top:1.19vh;
+}
+
+.push_buttonS{
+  cursor: url('../image/B2.ico'), pointer;
+  position:relative;
+  width:12%;
+  color:#FFF;
+  display:inline-block;
+  text-decoration:none;
+  border-radius:0vh;
+  font-family:'Rubik One', sans-serif;
+  border:solid 0.17vh #b070ff;
+  background:#b070ff;
+  text-align:center;
+  font-size: 3.8vh;
+  padding:3vh 4vh;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 0vh 1.53vh 0vh #705675;
+  -moz-box-shadow:0vh 1.53vh 0vh #705675;
+  box-shadow: 1.53vh 1.53vh 0vh #705675;
+  
+  margin-left: 2%;
+}
+
+.push_buttonS:hover{
+  -webkit-box-shadow: 0vh 0.34vh 0vh #705675;
+  -moz-box-shadow: 0vh 0.34vh 0vh #705675;
+  box-shadow: 0.34vh 0.34vh 0vh #705675;
+  position:relative;
+  top:1.19vh;
+}
+
+.push_buttonR{
+  cursor: url('../image/B2.ico'), pointer;
+  position:relative;
+  width:12%;
+  color:#FFF;
+  display:inline-block;
+  text-decoration:none;
+  font-family:'Rubik One', sans-serif;
+  border:solid 0.17vh #b070ff;
+  background:#b070ff;
+  text-align:center;
+  padding:3vh 4vh;
+  font-size: 3.8vh;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 0vh 1.53vh 0vh #705675;
+  -moz-box-shadow:0vh 1.53vh 0vh #705675;
+  box-shadow:1.53vh 1.53vh 0vh #705675;
+  margin: 2.55vh;
+  /* margin-left: 32%; */
+}
+
+.push_buttonR:hover{
+-webkit-box-shadow: 0vh 0.34vh 0vh #705675;
+-moz-box-shadow: 0vh 0.34vh 0vh #705675;
+box-shadow: 0.34vh 0.34vh 0vh #705675;
+position:relative;
+top:1.19vh;
+}

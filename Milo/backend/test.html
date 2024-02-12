@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <script>
+    var request = new XMLHttpRequest();
+    request.open("GET", "test.php", false);
+    request.send(null)
+    var file = request.responseText
+    // console.log(file);
+    file = file.split(" ")
+    var result = file[0]
+    var count = file[1]
+
+    console.log(result, count)
+
+
+    const url = "../index.php?result="+ result +"&count="+count;
+    window.location.href = url;
+  </script>
+</html>
